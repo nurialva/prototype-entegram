@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Entegram</title>
+        <link rel="stylesheet" href="static/css/materialize.min.css" />
+        <link rel="stylesheet" href="static/css/fonts.css" />
+        <link rel="stylesheet" href="static/css/index.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <style media="screen">
+            .allura { font-family: 'Allura', sans-serif; }
+        </style>
+    </head>
+    <body>
+        <div class="navbar-fixed">
+          <nav class="teal darken-4">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo allura">
+                    <b>Entegram</b>
+                </a>
+            </div>
+          </nav>
+        </div>
+        <div class="container">
+            <div class="loginpage">
+                <h5>Login</h5>
+                <p>Gunakan ID dan Password yang Anda miliki.</p>
+                <div class="input-field">
+                    <label for="id">ID</label>
+                    <input type="text" name="id" value="">
+                </div>
+                <div class="input-field">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" value="">
+                </div>
+                <div class="input-field">
+                    <button type="submit" class="btn btn-small teal darken-4" name="login">Login</button>
+                </div>
+                <div class="divider">
+                </div>
+                <p>Jika anda melupakan Sandi, harap melapor ke bagian administrator.</p>
+            </div>
+        </div>
+        <script src="static/js/jquery.min.js" charset="utf-8"></script>
+        <script src="static/js/materialize.min.js" charset="utf-8"></script>
+        <script type="text/javascript">
+            document.addEventListener('DOMContentLoaded', function() {
+                M.AutoInit();
+                $('.js').html("Haruskan semua")
+              });
+        </script>
+    </body>
+</html>

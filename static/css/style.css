@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+html, body {
+    font-family: 'Lato', sans-serif;
+}
+.book-wrapper { width:20%; }
+.book-data-wrapper {font-size: 11px;height:30px;}
+.book-data-author-wrapper {font-size:2px;height:25px;}
+.book-cover-wrapper {height:320px;position:relative;}
+.book-wrapper-img { width:100%;position: absolute;bottom: 0;left: 0;border:1px solid #ccc;}
+.book-wrapper-img:hover{opacity:0.60;}
+
+@media (min-width:601px){
+    .ext-container {
+        width:100%;
+        margin:auto;
+    }
+}
+@media (min-width:993px){
+    .ext-container {
+        width: 70%;
+        margin: auto;
+    }
+
+}
